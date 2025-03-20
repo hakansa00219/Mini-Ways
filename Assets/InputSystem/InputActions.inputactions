@@ -1,0 +1,109 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "d91f2fbf-8e9f-498a-88eb-7839e7301ba7",
+            "actions": [
+                {
+                    "name": "CreateRoad",
+                    "type": "Button",
+                    "id": "8a80dcc2-28ef-4ef0-b34c-6e8b0095823f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CreateBridge",
+                    "type": "Button",
+                    "id": "e39292e6-c82d-4380-9d66-9cf2bf128a23",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RemoveGrid",
+                    "type": "Button",
+                    "id": "d5de0737-ad70-4138-8a7a-4817d29eefc9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CreateRoad1",
+                    "type": "Button",
+                    "id": "638085d6-68ee-494f-b7ac-2edf244aa2ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RemoveGrid1",
+                    "type": "Button",
+                    "id": "d399c635-807f-4f30-b630-e625dc01ba34",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d98979be-7f6c-469c-9a09-dcd5cc6a43e3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CreateRoad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "855370a4-e912-49f2-b507-31abc190192d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CreateBridge",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9df4bb7d-d700-415a-bdc6-14cc7f7864ed",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RemoveGrid",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20eaa1c5-dc7f-4db1-94bd-33694803e78f",
+                    "path": "<Touchscreen>/press",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CreateRoad1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7acfb819-a39a-4a16-9170-6cbc538ed89b",
+                    "path": "<Touchscreen>/touch0/press",
+                    "interactions": "MultiTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RemoveGrid1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
