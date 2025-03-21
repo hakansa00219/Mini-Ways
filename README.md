@@ -1,4 +1,4 @@
-# Mini-Ways
+# Mini-Ways - 2022
 Traffic Simulator game
 
 All roads tileset ingame (54 types of road tile)
